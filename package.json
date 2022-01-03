@@ -1,6 +1,7 @@
 {
   "name": "blogportfolio",
   "private": true,
+  "main": "./src/index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,11 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/client": "^2.23.2",
+    "bootstrap": "^4.5.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "sass": "^1.45.0",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7"
   }
